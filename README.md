@@ -33,5 +33,6 @@ Change volumes to the location where you want to store these files:
 `Ctrl + C`
 
 ## Additional Information
-
+Currently, I've not been able to get the config directory to work on the external hard drive that videos on are.  I get a "SQLite Error 5 database locked" error.  I think it's a permissions issue but i've not solved it.
+I'm running 
 
