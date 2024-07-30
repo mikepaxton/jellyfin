@@ -9,7 +9,7 @@ services:
       - /video/cw_jellyfin_cache:/cache
       - type: bind
         source: /video
-        target: media
+        target: /media
         read_only: true
     restart: 'unless-stopped'
     # Optional - alternative address used for autodiscovery
