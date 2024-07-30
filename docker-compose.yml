@@ -15,7 +15,6 @@ services:
     # Optional - alternative address used for autodiscovery
     environment:
       - JELLYFIN_PublishedServerUrl=http://cyberworkstation.local
-      - DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=0
     # Optional - may be necessary for docker healthcheck to pass if running in host network mode
     extra_hosts:
       - 'host.docker.internal:host-gateway'
