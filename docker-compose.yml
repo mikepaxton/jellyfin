@@ -5,7 +5,7 @@ services:
     user: 1000:1000
     network_mode: 'host'
     volumes:
-      - /video/cw_jwllyfin_configy:/config
+      - /video/cw_jwllyfin_config:/config
       - /video/cw_jellyfin_cache:/cache
       - type: bind
         source: /video
